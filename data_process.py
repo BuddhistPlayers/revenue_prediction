@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-df = pd.read_csv('C:/Users/sunshine/Desktop/train.csv')
+df = pd.read_csv('C:/Users/sunshine/Desktop/oridata.csv')
 #print ("缺失值数量")
 #print(df.shape[0]- df.count())  #统计缺失值数量
 #print ("缺失值比例")
