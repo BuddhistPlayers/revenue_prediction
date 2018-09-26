@@ -8,7 +8,7 @@ df = pd.read_csv('C:/Users/sunshine/Desktop/oridata.csv')
 #print(1 - df.count()/df.shape[0]) #统计缺失值比例
 #df = df.drop('Cabin', axis=1)
 #print(df.channelGrouping.value_counts())
-
+print(df["channelGrouping"].unique())
 df.loc[df["channelGrouping"]=="Organic Search","channelGrouping"] =1
 
 df.loc[df["channelGrouping"]=="Social","channelGrouping"] =2
